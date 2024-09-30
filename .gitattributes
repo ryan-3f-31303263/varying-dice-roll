@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+import random
+print('variation dice roll')
+end=0
+lc=1
+print('enter <1> to exit the program, <Enter> to continue')
+while end!=str(1):
+    sid=int(input('number of sides: '))
+    print('roll number'+str(lc)+':')
+    print(random.randint(1,sid))
+    lc=lc+1
+    end=(input('-'))
